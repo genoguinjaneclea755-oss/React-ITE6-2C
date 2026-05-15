@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Clea Genoguin",
+    "age": 20,
+    
+    "course": "Computer Science"
+  },
+  {
+    "id": 2,
+    "name": "Jelyza Francisco",
+    "age": 20,
+    "course": "Information Technology"
+  },
+  {
+    "id": 3,
+    "name": "Melvin Lumanta",
+    "age": 19,
+    "course": "Information Technology"
+  },
+  {
+    "id": 4,
+    "name": "John Lorenz Jaropojop",
+    "age": 20,
+    "course": "Information Technology"
+  },
+  {
+    "id": 5,
+    "name": "Angelica Labbao",
+    "age": 19,
+    "course": "Information Technology"
+  },
+   {
+    "id": 6,
+    "name": "Athena Daguman",
+    "age": 19,
+    "course": "Education"
+  }, 
+  {
+    "id": 7,
+    "name": "Jerson Palomeras",
+    "age": 19,
+    "course": "Criminology"
+  }, 
+  {
+    "id": 8,
+    "name": "Renz Limpiado",
+    "age": 19,
+    "course": "Nusing"
+  }, 
+  {
+    "id": 9,
+    "name": "Maria Mae Gonzaga",
+    "age": 11,
+    "course": "Information Technology"
+  }, 
+  {     
+    "id": 10,
+    "name": "Kristel Sameran",
+    "age": 19,
+    "course": "Hospitality Management"
+  },
+   {
+    "id": 11,
+    "name": "Juliet Sarmiento",
+    "age": 20,
+    "course": "Information Technology"
+  },
+   {
+    "id": 12,
+    "name": "Lean Lopar",
+    "age": 28,
+    "course": "Information Technology"
+  }
+  
+  
+]

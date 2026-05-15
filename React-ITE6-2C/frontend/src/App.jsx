@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
+import App from "./Activities/Activity 1/App";
+import Act2 from "./Activities/Activity 2/Act2";
+import Act3 from "./Activities/Activity 3/Act3";
+import Act4 from "./Activities/Activity 4/Act4";
 
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <Router>
+      <Routes>
+      
+        <Route path="/act1" element={<App />} />
+        <Route path="/act2" element={<Act2 />} />
+        <Route path="/act3" element={<Act3 />} />
+        <Route path="/act4" element={<Act4 />} />
+       
 
-export default App
+      
+      </Routes>
+    </Router>
+  );
+}
